@@ -1,0 +1,60 @@
+/* ===========================
+   INFORMACIÓN DE COMPRA
+=========================== */
+
+.info-compra{
+    width:90%;
+    max-width:900px;
+    margin:60px auto;
+    padding:35px;
+    background:#ffffff;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+.info-compra h2{
+    font-family:'Playfair Display',serif;
+    color:#2E5E3D;
+    text-align:center;
+    font-size:38px;
+    margin-bottom:25px;
+}
+
+.info-compra ul{
+    list-style:none;
+    padding:0;
+}
+
+.info-compra li{
+    background:#F3FBF4;
+    margin-bottom:15px;
+    padding:18px 20px;
+    border-left:6px solid #5FAF6D;
+    border-radius:10px;
+    font-size:17px;
+}
+
+.info-compra strong{
+    color:#2E5E3D;
+}
+
+.info-contacto{
+    margin-top:30px;
+    text-align:center;
+}
+
+.info-contacto a{
+    display:inline-block;
+    background:#5FAF6D;
+    color:#fff;
+    text-decoration:none;
+    padding:14px 35px;
+    border-radius:30px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.info-contacto a:hover{
+    background:#498D56;
+    transform:scale(1.05);
+}

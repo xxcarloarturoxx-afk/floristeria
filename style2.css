@@ -1,0 +1,112 @@
+/* Importar fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Página */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#E8F7E9,#D8F3DC,#CDECCF);
+    color:#333;
+}
+
+/* Encabezado */
+header{
+    text-align:center;
+    padding:40px 20px;
+}
+
+header h1{
+    font-family:'Playfair Display',serif;
+    font-size:55px;
+    color:#2E5E3D;
+}
+
+header p{
+    margin-top:10px;
+    font-size:18px;
+    color:#4E7A57;
+}
+
+/* Contenedor de productos */
+.productos{
+    width:90%;
+    max-width:1300px;
+    margin:40px auto;
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+/* Tarjetas */
+.producto{
+    background:white;
+    border-radius:20px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.producto:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,.20);
+}
+
+/* Imagen */
+.producto img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+/* Nombre */
+.producto h2{
+    margin:15px 0;
+    color:#2E5E3D;
+    font-size:28px;
+    font-family:'Playfair Display',serif;
+}
+
+/* Precios */
+.producto p{
+    margin:8px 0;
+    font-size:16px;
+}
+
+/* Botón */
+.boton{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 30px;
+    background:#5FAF6D;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.boton:hover{
+    background:#498D56;
+    transform:scale(1.05);
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+header h1{
+    font-size:40px;
+}
+
+.producto img{
+    height:200px;
+}
+
+}
